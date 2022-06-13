@@ -1,7 +1,15 @@
 1. install sbt
 
 2. build 
+
 sbt package
+
+or
+
+sbt assembly
+
+3a
+export PYTHONPATH=/usr/local/spark/python/:$PYTHONPATH
 
 3. add to spark session
 
